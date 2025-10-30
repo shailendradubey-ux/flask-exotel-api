@@ -1,0 +1,12 @@
+# Spacefile
+v: 0
+
+micros:
+  - name: connect-micro
+    src: ./
+    engine: python3.11
+    primary: true
+    run: gunicorn app:app --bind 0.0.0.0:$PORT
+    dev: flask run --host=0.0.0.0 --port=$PORT
+    public_routes:
+      - "/connect"

@@ -9,7 +9,7 @@ def connect():
         "destination": {
             "trunk": "trmum1b25b5f83ee4d7a607d197g"
         },
-        "custom_params": "param1=60299&param2=30303030333031323037313734333435353239313B30393434373931383638353B656E676C697368&param3=abc",
+        "custom_params": "param1=60299&param2=36623932653138362D363061332D346439642D383837342D6333333166616638373265337C454E7C39353333343635363535&param3=abc",
         "record": True,
         "recording_channels": "dual"
     }
@@ -18,3 +18,4 @@ def connect():
 
 if __name__ == '__main__':
     app.run(port=5000)
+
